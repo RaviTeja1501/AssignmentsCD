@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 16px;
+}
+/* .card{
+    margin: 160px auto;
+    border: 2px solid lightgrey;
+    width:400px;
+    padding: 10px;
+    border-radius: 14px;
+} */
+.card img{
+    width:100%;
+    border-radius: 14px;
+}
+.card::first-line{
+    color:red;
+}
+.card::first-letter{
+    font-size: 40px;
+    color:blue;
+}
+::selection{
+  background-color: black;
+  color:white;
+}
+h1{
+    
+}
+.card{
+    display: flex;
+}
+.color{
+    background-color: red;
+    height:500vh;
+    width:100wh;
+}
+.color1{
+    background-color:green;
+    height:500px;
+    width:500px;
+}
